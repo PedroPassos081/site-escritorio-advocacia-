@@ -1,0 +1,172 @@
+
+.header-index {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-around;
+    padding: 6px;
+}
+
+.logo{
+height: 80px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu_a{
+    color:#3499B7;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+span{
+    color: #00BFF8;
+}
+
+.banner{
+    
+    background-color:#00095F;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    height: 470px;
+    
+}
+
+.title-banner{
+    margin-top: -4px;
+    font-size: 60px;
+    flex-wrap: wrap;
+    width: 600px;
+    color: #ffff;
+    padding-left: 20px;
+}
+
+.button-banner{
+    background-color: #00BFF8;
+    border-radius: 5px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 27px;
+    padding: 7px;
+    margin-left: 30px;
+}
+
+.button-banner:hover{
+    background-color: #3644c7;
+}
+
+.advogado{
+    margin-top: 30px;
+}
+
+.infor{
+    width: 600px;
+    height: 500px;
+}
+
+.premiacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -40px;
+    
+}
+
+.medalhas{
+    width: 1000px;
+    height: 150px;
+}
+
+.title-servicos {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #00095F;
+    font-size: 45px;
+}
+
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.area-servicos {
+    display: flex;
+    align-items: center;
+    background-color: #00095F;
+    border-radius: 30px;
+    margin-bottom: 64px;
+    width: 700px;
+    height: 200px;
+}
+
+.image-servicos {
+    display: flex;
+    height: 201px;
+}
+
+.conteudo-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+    font-size: 30px;
+    color: #ffff;
+}
+
+.quem-somos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.text-quem-somos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 460px;
+    margin: 60px;
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    background-color: #00095F;
+    color: #ffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 210px;
+}
+.title-footer{
+    height: 20px;
+}
+.text-footer{
+    flex-wrap: wrap;
+    width: 400px;
+    text-align: center;
+
+}
+
+.button-footer {
+    background-color: #00BFF8;
+    border-radius: 5px;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    box-shadow: 5px;
+}
+
+.button-footer:hover{
+    background-color: #3644c7 ;
+}
