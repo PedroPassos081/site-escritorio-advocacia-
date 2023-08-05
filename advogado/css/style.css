@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: inter;
+}
+
+.header_p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:  space-around;
+    padding: 6px;
+}
+
+.logo{
+height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 50px;
+}
+.menu_a{
+    color: blue;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+span{
+    color: blue;
+}
+
+.banner {
+    display: flex;
+    background-color: rgba(1, 191, 248, 1);
+    align-items: center;
+}
+
+
+.title-principal{
+   font-size: 28px;
+    flex-wrap: wrap;
+    width: 250px;
+    
+}
+
+.buttom-tittle {
+    background-color: black;
+    border-radius: 5px;
+    color: #ffff;
+}
